@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gggrass-florist/static/css/main.2ae47eeb.chunk.css",
+    "main.js": "/gggrass-florist/static/js/main.4bd8a37a.chunk.js",
+    "main.js.map": "/gggrass-florist/static/js/main.4bd8a37a.chunk.js.map",
+    "runtime-main.js": "/gggrass-florist/static/js/runtime-main.c9e08578.js",
+    "runtime-main.js.map": "/gggrass-florist/static/js/runtime-main.c9e08578.js.map",
+    "static/js/2.a59af08a.chunk.js": "/gggrass-florist/static/js/2.a59af08a.chunk.js",
+    "static/js/2.a59af08a.chunk.js.map": "/gggrass-florist/static/js/2.a59af08a.chunk.js.map",
+    "index.html": "/gggrass-florist/index.html",
+    "static/css/main.2ae47eeb.chunk.css.map": "/gggrass-florist/static/css/main.2ae47eeb.chunk.css.map",
+    "static/js/2.a59af08a.chunk.js.LICENSE.txt": "/gggrass-florist/static/js/2.a59af08a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9e08578.js",
+    "static/js/2.a59af08a.chunk.js",
+    "static/css/main.2ae47eeb.chunk.css",
+    "static/js/main.4bd8a37a.chunk.js"
+  ]
+}
