@@ -20,7 +20,7 @@ export const Navigation = (props) => {
           </a>
         </li>
         <li>
-          <a className="smoothscroll" href="#service">
+          <a className="smoothscroll" href="#services">
             Service
           </a>
         </li>

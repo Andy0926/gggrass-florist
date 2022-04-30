@@ -252,6 +252,8 @@ a:focus,
 	/* background: rgba(0, 0, 0, 0.2); */
 }
 
+
+
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #72cc50;
@@ -285,8 +287,15 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #f6f6f6;
+	/* background: #f6f6f6; */
+	background: linear-gradient(to right, #72cc50 0%, #5ba540 100%);
 }
+
+#features h2,
+#features h3 {
+	color: #fff;
+}
+
 
 #features i.fa {
 	font-size: 38px;
@@ -304,27 +313,28 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: linear-gradient(to right, #bfd834 0%, #72cc50 100%);
+	background: #fff;
 	color: #fff;
 }
 
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
-	color: #ffff;
+	color: black;
 }
+
 
 #about h2 {
 	position: relative;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	color: #ffff;
+	color: black;
 }
 
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255, 255, 255, 0.3);
+	background: linear-gradient(to right, #72cc50 0%, #5ba540 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -336,12 +346,13 @@ header .intro-text {
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
+	color: black;
 }
 
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #ffff;
+	color: black;
 	;
 	font-size: 11px;
 	font-weight: 300;
@@ -359,12 +370,13 @@ header .intro-text {
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+	color: black;
 }
 
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #bfd834 0%, #72cc50 100%);
+	background: #fff;
 	color: #fff;
 }
 
@@ -373,13 +385,13 @@ header .intro-text {
 }
 
 #services h2 {
-	color: #fff;
+	color: black;
 }
 
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255, 255, 255, .3);
+	background: linear-gradient(to right, #bfd834 0%, #72cc50 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -401,11 +413,11 @@ header .intro-text {
 #services h3 {
 	font-weight: 500;
 	padding: 5px 0;
-	color: #fff;
+	color: black;
 }
 
 #services p {
-	color: rgba(255, 255, 255, .75);
+	color: black;
 }
 
 #services .service-desc {
@@ -722,6 +734,12 @@ label {
 	background-image: url("overlay-bg.png");
 	height: 100%;
 }
+@media (min-width: 769px) and (max-width: 1091px) {
+	.header-container{
+		padding-left: 30px;
+	}
+}
+
 
 @media (min-width: 450px) and (max-width: 768px) {
 	.intro h1 {
@@ -744,12 +762,19 @@ label {
 	header {
 		padding-top: 80px;
 	}
+	.header-container{
+		padding-left: 30px;
+	}
 }
 
 @media (min-width: 300px) and (max-width: 450px) {
+
+	.header-container{
+		padding-left: 30px;
+	}
+
 	.intro h1 {
-		font-size: 3rem;
-		padding-top: 20px;
+		font-size: 2rem;
 	}
 
 	.overlay-img {
@@ -757,7 +782,7 @@ label {
 	}
 
 	header .intro-text {
-		padding-top: 100px;
+		padding-top: 50px;
 	}
 
 	header {
@@ -817,7 +842,10 @@ label {
 /* Features Section */
 #social {
 	padding: 100px 0;
-	background: rgba(255, 255, 255, 0.562);
+	background: linear-gradient(to right, #72cc50 0%, #5ba540 100%);
+}
+#social h2, h3{
+	color: white;
 }
 
 #social i.fa-whatsapp {
@@ -904,158 +932,166 @@ label {
 #nav-wrap ul,
 #nav-wrap li,
 #nav-wrap a {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
 }
 
 /* nav-wrap */
 #nav-wrap {
-  font: 12px "opensans-bold", sans-serif;
-  width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  margin: 0 auto;
-  z-index: 100;
-  position: fixed;
-  left: 0;
-  top: 0;
+	font: 12px "opensans-bold", sans-serif;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	margin: 0 auto;
+	z-index: 100;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #187c4a !important;
 }
+
 .opaque {
-  background-color: #333;
+	background-color: #333;
 }
 
 /* hide toggle button */
-#nav-wrap > a.mobile-btn {
-  display: none;
+#nav-wrap>a.mobile-btn {
+	display: none;
 }
 
 ul#nav {
-  min-height: 48px;
-  width: auto;
+	min-height: 48px;
+	width: auto;
 
-  /* center align the menu */
-  text-align: center;
+	/* center align the menu */
+	text-align: center;
 }
+
 ul#nav li {
-  position: relative;
-  list-style: none;
-  height: 48px;
-  display: inline-block;
+	position: relative;
+	list-style: none;
+	height: 48px;
+	display: inline-block;
 }
 
 /* Links */
 ul#nav li a {
-  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+	/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
-  display: inline-block;
-  padding: 8px 13px;
-  line-height: 32px;
-  text-decoration: none;
-  text-align: left;
-  color: #72cc50;
+	display: inline-block;
+	padding: 8px 13px;
+	line-height: 32px;
+	text-decoration: none;
+	text-align: left;
+	color: #72cc50;
 
-  -webkit-transition: color 0.2s ease-in-out;
-  -moz-transition: color 0.2s ease-in-out;
-  -o-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
 }
 
 ul#nav li a:active {
-  background-color: transparent !important;
+	background-color: transparent !important;
 }
+
 ul#nav li.current a {
-  background-color: #019875;
-  color: white;
+	background-color: #019875;
+	color: white;
 }
 
 @media only screen and (max-width: 767px) {
+
 	/* mobile navigation
 	 -------------------------------------------------------------------- */
 	#nav-wrap {
-	  font: 12px "opensans-bold", sans-serif;
-	  background: transparent !important;
-	  letter-spacing: 1.5px;
-	  width: auto;
-	  position: fixed;
-	  top: 0;
-	  right: 0;
+		font: 12px "opensans-bold", sans-serif;
+		background: transparent !important;
+		letter-spacing: 1.5px;
+		width: auto;
+		position: fixed;
+		top: 0;
+		right: 0;
 	}
-	#nav-wrap > a {
-	  width: 48px;
-	  height: 48px;
-	  text-align: left;
-	  background-color: #11abb0;
-	  position: relative;
-	  border: none;
-	  float: right;
-  
-	  font: 0/0 a;
-	  text-shadow: none;
-	  color: transparent;
-  
-	  position: relative;
-	  top: 0px;
-	  right: 30px;
+
+	#nav-wrap>a {
+		width: 48px;
+		height: 48px;
+		text-align: left;
+		background-color: #11abb0;
+		position: relative;
+		border: none;
+		float: right;
+
+		font: 0/0 a;
+		text-shadow: none;
+		color: transparent;
+
+		position: relative;
+		top: 0px;
+		right: 30px;
 	}
-  
-	#nav-wrap > a:before,
-	#nav-wrap > a:after {
-	  position: absolute;
-	  border: 2px solid #fff;
-	  top: 35%;
-	  left: 25%;
-	  right: 25%;
-	  content: "";
+
+	#nav-wrap>a:before,
+	#nav-wrap>a:after {
+		position: absolute;
+		border: 2px solid #fff;
+		top: 35%;
+		left: 25%;
+		right: 25%;
+		content: "";
 	}
-	#nav-wrap > a:after {
-	  top: 60%;
+
+	#nav-wrap>a:after {
+		top: 60%;
 	}
-  
+
 	/* toggle buttons */
-	#nav-wrap:not(:target) > a:first-of-type,
-	#nav-wrap:target > a:last-of-type {
-	  display: block;
+	#nav-wrap:not(:target)>a:first-of-type,
+	#nav-wrap:target>a:last-of-type {
+		display: block;
 	}
-  
+
 	/* hide menu panel */
 	#nav-wrap ul#nav {
-	  height: auto;
-	  display: none;
-	  clear: both;
-	  width: auto;
-	  float: right;
-  
-	  position: relative;
-	  top: 12px;
-	  right: 0;
+		height: auto;
+		display: none;
+		clear: both;
+		width: auto;
+		float: right;
+
+		position: relative;
+		top: 12px;
+		right: 0;
 	}
-  
+
 	/* display menu panels */
-	#nav-wrap:target > ul#nav {
-	  display: block;
-	  padding: 20px;
-	  background: #1f2024;
-	  margin: 0 30px;
-	  clear: both;
+	#nav-wrap:target>ul#nav {
+		display: block;
+		padding: 20px;
+		background: #1f2024;
+		margin: 0 30px;
+		clear: both;
 	}
-  
+
 	ul#nav li {
-	  display: block;
-	  height: auto;
-	  margin: 0 auto;
-	  padding: 0 4%;
-	  text-align: left;
-	  border-bottom: 1px solid #2d2e34;
-	  border-bottom-style: dotted;
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		padding: 0 4%;
+		text-align: left;
+		border-bottom: 1px solid #2d2e34;
+		border-bottom-style: dotted;
 	}
-  
+
 	ul#nav li a {
-	  display: block;
-	  margin: 0;
-	  line-height: 16px; /* reset line-height from 48px */
-	  border: none;
+		display: block;
+		margin: 0;
+		line-height: 16px;
+		/* reset line-height from 48px */
+		border: none;
 	}
 }

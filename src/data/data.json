@@ -1,7 +1,7 @@
 {
     "Header": {
         "title": "GG Grass Florist",
-        "paragraph": "Lorem Ipsum Dipsum"
+        "paragraph": "青青草花苑"
     },
     "About": {
         "paragraph": "At Immortech, we belive there are better way to provide computer consultation service for people. We make the repairing process transparent by educating & update the status of repair to the customer. We strongly believe that every people must possed some knowledge in using computer to prolong the lifespan of a computer. We are excited & ready to help you at any time :)",
@@ -19,34 +19,19 @@
     },
     "Services": [
         {
-            "icon": "fa fa-hard-drive",
-            "name": "Hard Drive",
+            "icon": "fa fa-ring",
+            "name": "Wedding",
             "text": "Slow or unresponsive Hard Drive? You might need to replace it into a new SSD or HDD"
         },
         {
-            "icon": "fa fa-arrow-rotate-right",
-            "name": "Format",
+            "icon": "fa fa-calendar",
+            "name": "Events",
             "text": "It is wise to format your computer once in a while to avoid corruption of Operating System & experience slow"
         },
         {
-            "icon": "fa fa-hand-sparkles",
-            "name": "Cleaning",
-            "text": "A dusty laptop will cause your computer to overheat easily. Clean the dust to avoid overheat to prolong the laptop lifespan"
-        },
-        {
-            "icon": "fa fa-screwdriver-wrench",
-            "name": "Repair & Replace",
-            "text": "Speaker, Keyboard, Touchpad, Motherboard Spoil? We will help you to replace it"
-        },
-        {
-            "icon": "fa fa-person-circle-question",
-            "name": "Consultation",
-            "text": "Looking for new computer & having technical question? We are ready to answer your request"
-        },
-        {
-            "icon": "fa fa-download",
-            "name": "Software Installation",
-            "text": "We provide software installation service without risk of having computer virus"
+            "icon": "fa fa-heart",
+            "name": "For lover",
+            "text": "For friends/significant other we will help to customise the flower for you"
         }
     ],
     "Testimonials": [
@@ -118,18 +103,18 @@
             "text": ""
         },
         {
+            "icon": "fa fa-hands",
+            "title": "Order & Make",
+            "text": ""
+        },
+        {
             "icon": "fa fa-clock-o",
             "title": "Make Appointment",
             "text": ""
         },
         {
-            "icon": "fa fa-wrench",
-            "title": "Wait to fix",
-            "text": ""
-        },
-        {
-            "icon": "fa fa-smile-o",
-            "title": "Collect",
+            "icon": "fa fa-fan",
+            "title": "Collect Flower",
             "text": ""
         }
     ],
