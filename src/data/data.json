@@ -1,0 +1,157 @@
+{
+    "Header": {
+        "title": "GG Grass Florist",
+        "paragraph": "Lorem Ipsum Dipsum"
+    },
+    "About": {
+        "paragraph": "At Immortech, we belive there are better way to provide computer consultation service for people. We make the repairing process transparent by educating & update the status of repair to the customer. We strongly believe that every people must possed some knowledge in using computer to prolong the lifespan of a computer. We are excited & ready to help you at any time :)",
+        "Why": [
+            "Fast",
+            "Reliable",
+            "Cheap"
+            
+        ],
+        "Why2": [
+            "Transparent",
+            "Doorstep Service",
+            "Aftersale Service"
+        ]
+    },
+    "Services": [
+        {
+            "icon": "fa fa-hard-drive",
+            "name": "Hard Drive",
+            "text": "Slow or unresponsive Hard Drive? You might need to replace it into a new SSD or HDD"
+        },
+        {
+            "icon": "fa fa-arrow-rotate-right",
+            "name": "Format",
+            "text": "It is wise to format your computer once in a while to avoid corruption of Operating System & experience slow"
+        },
+        {
+            "icon": "fa fa-hand-sparkles",
+            "name": "Cleaning",
+            "text": "A dusty laptop will cause your computer to overheat easily. Clean the dust to avoid overheat to prolong the laptop lifespan"
+        },
+        {
+            "icon": "fa fa-screwdriver-wrench",
+            "name": "Repair & Replace",
+            "text": "Speaker, Keyboard, Touchpad, Motherboard Spoil? We will help you to replace it"
+        },
+        {
+            "icon": "fa fa-person-circle-question",
+            "name": "Consultation",
+            "text": "Looking for new computer & having technical question? We are ready to answer your request"
+        },
+        {
+            "icon": "fa fa-download",
+            "name": "Software Installation",
+            "text": "We provide software installation service without risk of having computer virus"
+        }
+    ],
+    "Testimonials": [
+        {
+            "img": "img/testimonials/01.jpg",
+            "text": "\"\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Team": [
+        {
+            "img": "img/team/01.jpg",
+            "name": "John Doe",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Mike Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "Jane Doe",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ],
+    "Contact": {
+        "address": "4321 California St, San Francisco, CA 12345 ",
+        "phone": "+1 123 456 1234",
+        "email": "info@company.com",
+        "facebook": "fb.com",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [
+        {
+            "icon": "fa fa-whatsapp",
+            "title": "Whatsapp",
+            "text": ""
+        },
+        {
+            "icon": "fa fa-clock-o",
+            "title": "Make Appointment",
+            "text": ""
+        },
+        {
+            "icon": "fa fa-wrench",
+            "title": "Wait to fix",
+            "text": ""
+        },
+        {
+            "icon": "fa fa-smile-o",
+            "title": "Collect",
+            "text": ""
+        }
+    ],
+    "Social": [
+        {
+            "icon": "fa fa-whatsapp",
+            "title": "Whatsapp",
+            "text": "",
+            "link":"https://wa.link/10u3s7"
+        },
+        {
+            "icon": "fa fa-instagram",
+            "title": "Instagram",
+            "text": "",
+            "link":"https://www.instagram.com/immortech.co/"
+        },
+        {
+            "icon": "fa fa-facebook",
+            "title": "Facebook",
+            "text": "",
+            "link":"https://www.facebook.com/immortech.co"
+        }
+
+    ]
+}
